@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11185.3" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11151.4"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="XCode8Sample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello IOS7!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUq-Ob-A7o">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1Xz-eb-s3c"/>
+                                    <constraint firstAttribute="width" constant="100" id="66L-O7-LZa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="9vx-tB-kZx">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="0E2-FQ-K2t"/>
+                                    <constraint firstAttribute="height" constant="100" id="z7T-Jm-PnV"/>
+                                </constraints>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="white_red" translatesAutoresizingMaskIntoConstraints="NO" id="G2n-kt-ecF">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="IuX-lY-8vn"/>
+                                    <constraint firstAttribute="width" constant="16" id="cuE-Au-2E0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="TUq-Ob-A7o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="29Q-eP-jWq"/>
+                            <constraint firstItem="G2n-kt-ecF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VbO-lX-B5k"/>
+                            <constraint firstItem="TUq-Ob-A7o" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="h1q-pT-7OY"/>
+                            <constraint firstItem="9vx-tB-kZx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lsH-16-l0M"/>
+                            <constraint firstItem="TUq-Ob-A7o" firstAttribute="top" secondItem="G2n-kt-ecF" secondAttribute="bottom" constant="20" id="rby-eX-25W"/>
+                            <constraint firstItem="9vx-tB-kZx" firstAttribute="top" secondItem="TUq-Ob-A7o" secondAttribute="bottom" constant="20" id="xpX-oR-1dD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dummyImage" destination="9vx-tB-kZx" id="45b-UB-bEW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="white_red" width="16" height="16"/>
+    </resources>
+</document>
