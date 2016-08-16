@@ -259,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = Q7PFYP5EYA;
 				INFOPLIST_FILE = XCode8Sample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -274,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = Q7PFYP5EYA;
 				INFOPLIST_FILE = XCode8Sample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
